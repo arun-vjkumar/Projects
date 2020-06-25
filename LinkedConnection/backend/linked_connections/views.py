@@ -35,7 +35,7 @@ class LinkedConnections:
     @classmethod
     def initialize_data(cls, request: WSGIRequest) -> HttpResponse:
         num_users = int(request.GET["numUsers"])
-        for i in range(1, num_users):
+        for i in range(1, num_users + 1):
             names = fake.name().split(" ")
             first_name, last_name = " ".join(names[0:-1]), names[-1]
             LinkedConnections.users[i] = User(user_id=i,
@@ -62,9 +62,8 @@ class LinkedConnections:
         if start_index >= len(users):
             start_index = len(users) - 1
         if end_index >= len(users):
-            end_index = len(users) - 1
+            end_index = len(users)
 
-        print(start_index, end_index)
         return HttpResponse(
             content=json.dumps({"connections": [user for user in users[start_index: end_index]]}, default=User.to_dict),
             content_type="application/json"
