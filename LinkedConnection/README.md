@@ -4,12 +4,12 @@
 Connections Viewer Backend(Python3 and Django) and Frontend (React)
 
 ## Backend Server
-Step 1: Install Django
-Step 2: python manage.py runserver
+1. Install Django
+2. python manage.py runserver
 
 ## Frontend Server
-Step 1: npm install
-Step 2: npm run start
+1. npm install
+2. npm run start
 
 ## API's
 1. Initialize Connections
