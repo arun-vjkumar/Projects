@@ -11,34 +11,34 @@ Step 1: npm install
 Step 2: npm run start
 
 ## API's
-1. Initialize Connections
-Description: Initialize dummy data
-URL: "/initialize/"
-METHOD: GET
-Params:
+* Initialize Connections
+* Description: Initialize dummy data
+* URL: "/initialize/"
+* METHOD: GET
+* Params:
   1. numUsers: number
 
-2. Get All Connections
-Description: Fetch all connections in a paginated manner
-URL: "/connections/"
-METHOD: GET
-Params:
+* Get All Connections
+* Description: Fetch all connections in a paginated manner
+* URL: "/connections/"
+* METHOD: GET
+* Params:
   1. page: number
   2. pageSize: number
 
 
-3. Fetch User Connections
-Description: Get all the connections of user associated with userId
-URL: "/userConnections/"
-METHOD: GET
-Params:
+* Fetch User Connections
+* Description: Get all the connections of user associated with userId
+* URL: "/userConnections/"
+* METHOD: GET
+* Params:
   1. userId: number
 
-4. Fetch Connections 
-Description: Get connections based on name and locations
-URL: "/connectionByNameLocation/"
-METHOD: GET
-Params (either one param is mandatory):
+* Fetch Connections 
+* Description: Get connections based on name and locations
+* URL: "/connectionByNameLocation/"
+* METHOD: GET
+* Params (either one param is mandatory):
   1. name: string
   2. location: string
 
