@@ -1,3 +1,4 @@
+
 # Linked Connections
  
 Connections Viewer Backend(Python3 and Django) and Frontend (React)
@@ -48,4 +49,5 @@ Step 1: Run Backend Server
 Step 2: Run Frontend Server
 Step 3: Click on Fetch All Button on the Databoard
 
-
+Sample:
+![fetch all connections](https://github.com/Arunv-Rvce/Projects/tree/master/LinkedConnection/images/fetch_all.png?raw=true)
