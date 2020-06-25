@@ -50,4 +50,4 @@ Step 2: npm run start
 3. Click on Fetch All Button on the Databoard
 
 Sample:
-![alt fetch all connections](https://github.com/Arunv-Rvce/Projects/tree/master/LinkedConnection/images/fetch_all.png)
+![Alt text](https://github.com/Arunv-Rvce/Projects/tree/master/LinkedConnection/images/fetch_all.png "Fetch all connections")
