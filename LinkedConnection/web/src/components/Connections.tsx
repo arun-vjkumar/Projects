@@ -123,7 +123,7 @@ export const Connections = () => {
 
     async function initialize() {
         await get("initialize", {numUsers: 100})
-        getNewUsers()
+        await getNewUsers()
     }
 
     async function getByNameLocation() {
@@ -156,10 +156,10 @@ export const Connections = () => {
         }
     }
 
-    function getNewUsers() {
+    async function getNewUsers() {
         setPageNo(1)
         setMaxPageNo(0)
-        getAllUsers()
+        await getAllUsers()
     }
 
     function getSearchParameter(value: string) {
